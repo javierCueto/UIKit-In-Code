@@ -10,7 +10,6 @@
 		4593E90426E51BA5000B52A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90326E51BA5000B52A1 /* AppDelegate.swift */; };
 		4593E90626E51BA5000B52A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90526E51BA5000B52A1 /* SceneDelegate.swift */; };
 		4593E90826E51BA5000B52A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90726E51BA5000B52A1 /* ViewController.swift */; };
-		4593E90B26E51BA5000B52A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593E90926E51BA5000B52A1 /* Main.storyboard */; };
 		4593E90D26E51BA7000B52A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593E90C26E51BA7000B52A1 /* Assets.xcassets */; };
 		4593E91026E51BA7000B52A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593E90E26E51BA7000B52A1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		4593E90326E51BA5000B52A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4593E90526E51BA5000B52A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4593E90726E51BA5000B52A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4593E90A26E51BA5000B52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4593E90C26E51BA7000B52A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4593E90F26E51BA7000B52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4593E91126E51BA7000B52A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,62 @@
 		4593E90226E51BA5000B52A1 /* UIKit In Code */ = {
 			isa = PBXGroup;
 			children = (
-				4593E90326E51BA5000B52A1 /* AppDelegate.swift */,
-				4593E90526E51BA5000B52A1 /* SceneDelegate.swift */,
-				4593E90726E51BA5000B52A1 /* ViewController.swift */,
-				4593E90926E51BA5000B52A1 /* Main.storyboard */,
-				4593E90C26E51BA7000B52A1 /* Assets.xcassets */,
-				4593E90E26E51BA7000B52A1 /* LaunchScreen.storyboard */,
-				4593E91126E51BA7000B52A1 /* Info.plist */,
+				4593E91C26E51D95000B52A1 /* Utils */,
+				4593E91B26E51D8D000B52A1 /* System */,
+				4593E91A26E51D77000B52A1 /* Resources */,
+				4593E91926E51D6B000B52A1 /* Model */,
+				4593E91826E51D62000B52A1 /* Controller */,
+				4593E91726E51D59000B52A1 /* View */,
 			);
 			path = "UIKit In Code";
+			sourceTree = "<group>";
+		};
+		4593E91726E51D59000B52A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4593E90E26E51BA7000B52A1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4593E91826E51D62000B52A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4593E90726E51BA5000B52A1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4593E91926E51D6B000B52A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4593E91A26E51D77000B52A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4593E90C26E51BA7000B52A1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4593E91B26E51D8D000B52A1 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				4593E90326E51BA5000B52A1 /* AppDelegate.swift */,
+				4593E90526E51BA5000B52A1 /* SceneDelegate.swift */,
+				4593E91126E51BA7000B52A1 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		4593E91C26E51D95000B52A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +171,6 @@
 			files = (
 				4593E91026E51BA7000B52A1 /* LaunchScreen.storyboard in Resources */,
 				4593E90D26E51BA7000B52A1 /* Assets.xcassets in Resources */,
-				4593E90B26E51BA5000B52A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +190,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4593E90926E51BA5000B52A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4593E90A26E51BA5000B52A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4593E90E26E51BA7000B52A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNSM43P2F3;
-				INFOPLIST_FILE = "UIKit In Code/Info.plist";
+				INFOPLIST_FILE = "UIKit In Code/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNSM43P2F3;
-				INFOPLIST_FILE = "UIKit In Code/Info.plist";
+				INFOPLIST_FILE = "UIKit In Code/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
