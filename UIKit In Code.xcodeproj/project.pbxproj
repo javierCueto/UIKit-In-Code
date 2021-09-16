@@ -13,6 +13,7 @@
 		4593E90D26E51BA7000B52A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593E90C26E51BA7000B52A1 /* Assets.xcassets */; };
 		4593E91026E51BA7000B52A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593E90E26E51BA7000B52A1 /* LaunchScreen.storyboard */; };
 		45ACD8F626E7A6380086C5D7 /* UIView_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ACD8F526E7A6380086C5D7 /* UIView_Controller.swift */; };
+		45C3146626F38CCA00BA7B68 /* UIButton_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C3146526F38CCA00BA7B68 /* UIButton_Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4593E90F26E51BA7000B52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4593E91126E51BA7000B52A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45ACD8F526E7A6380086C5D7 /* UIView_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Controller.swift; sourceTree = "<group>"; };
+		45C3146526F38CCA00BA7B68 /* UIButton_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4593E90726E51BA5000B52A1 /* ViewController.swift */,
 				45ACD8F526E7A6380086C5D7 /* UIView_Controller.swift */,
+				45C3146526F38CCA00BA7B68 /* UIButton_Controller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				4593E90826E51BA5000B52A1 /* ViewController.swift in Sources */,
 				4593E90426E51BA5000B52A1 /* AppDelegate.swift in Sources */,
 				45ACD8F626E7A6380086C5D7 /* UIView_Controller.swift in Sources */,
+				45C3146626F38CCA00BA7B68 /* UIButton_Controller.swift in Sources */,
 				4593E90626E51BA5000B52A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
