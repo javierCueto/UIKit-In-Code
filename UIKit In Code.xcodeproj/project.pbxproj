@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B16CA7A28D212AD000199C5 /* UILabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B16CA7928D212AD000199C5 /* UILabelsViewController.swift */; };
 		4593E90426E51BA5000B52A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90326E51BA5000B52A1 /* AppDelegate.swift */; };
 		4593E90626E51BA5000B52A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90526E51BA5000B52A1 /* SceneDelegate.swift */; };
 		4593E90826E51BA5000B52A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593E90726E51BA5000B52A1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B16CA7928D212AD000199C5 /* UILabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelsViewController.swift; sourceTree = "<group>"; };
 		4593E90026E51BA5000B52A1 /* UIKit In Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit In Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4593E90326E51BA5000B52A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4593E90526E51BA5000B52A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4593E90726E51BA5000B52A1 /* ViewController.swift */,
 				45ACD8F526E7A6380086C5D7 /* UIView_Controller.swift */,
 				45C3146526F38CCA00BA7B68 /* UIButton_Controller.swift */,
+				3B16CA7928D212AD000199C5 /* UILabelsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4593E90826E51BA5000B52A1 /* ViewController.swift in Sources */,
+				3B16CA7A28D212AD000199C5 /* UILabelsViewController.swift in Sources */,
 				4593E90426E51BA5000B52A1 /* AppDelegate.swift in Sources */,
 				45ACD8F626E7A6380086C5D7 /* UIView_Controller.swift in Sources */,
 				45C3146626F38CCA00BA7B68 /* UIButton_Controller.swift in Sources */,
