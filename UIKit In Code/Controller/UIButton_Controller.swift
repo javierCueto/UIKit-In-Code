@@ -15,7 +15,7 @@ class UIButton_Controller: UIViewController{
         b.backgroundColor = .red
         b.translatesAutoresizingMaskIntoConstraints = false
         b.contentEdgeInsets = .init(top: 10, left: 10, bottom: 10, right: 10)
-        b.addTarget(self, action: #selector(customButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(customButtonHandle), for: .touchUpInside)
         return b
     }()
     
@@ -23,7 +23,7 @@ class UIButton_Controller: UIViewController{
         let b = UIButton(type: .system)
         b.setTitle("system", for: .normal)
         b.translatesAutoresizingMaskIntoConstraints = false
-        b.addTarget(self, action: #selector(anyButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(anyButtonHandle), for: .touchUpInside)
         b.tag = 0
         b.accessibilityIdentifier = "system button here"
         return b
@@ -33,7 +33,7 @@ class UIButton_Controller: UIViewController{
         let b = UIButton(type: .system)
         b.setTitle("my button", for: .normal)
         b.translatesAutoresizingMaskIntoConstraints = false
-        b.addTarget(self, action: #selector(anyButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(anyButtonHandle), for: .touchUpInside)
         b.tag = 0
         b.accessibilityIdentifier = "my button button here"
         b.backgroundColor = .purple
@@ -46,7 +46,7 @@ class UIButton_Controller: UIViewController{
     let detailButton: UIButton = {
         let b = UIButton(type: .detailDisclosure)
         b.translatesAutoresizingMaskIntoConstraints = false
-        b.addTarget(self, action: #selector(anyButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(anyButtonHandle), for: .touchUpInside)
         b.tag = 0
         b.accessibilityIdentifier = "detail button here"
         return b
@@ -56,7 +56,7 @@ class UIButton_Controller: UIViewController{
     let addButton: UIButton = {
         let b = UIButton(type: .contactAdd)
         b.translatesAutoresizingMaskIntoConstraints = false
-        b.addTarget(self, action: #selector(anyButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(anyButtonHandle), for: .touchUpInside)
         b.tag = 0
         b.accessibilityIdentifier = "contact add button here"
         return b
@@ -65,7 +65,7 @@ class UIButton_Controller: UIViewController{
     let closeButton: UIButton = {
         let b = UIButton(type: .close)
         b.translatesAutoresizingMaskIntoConstraints = false
-        b.addTarget(self, action: #selector(anyButtonHandle), for: .touchUpInside)
+        b.addTarget(UIButton_Controller.self, action: #selector(anyButtonHandle), for: .touchUpInside)
         b.tag = 0
         b.accessibilityIdentifier = "close add button here"
         return b
